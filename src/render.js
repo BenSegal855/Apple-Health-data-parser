@@ -14,6 +14,7 @@ startBtn.onclick = convert;
 
 async function getSrcFile() {
 	const { filePaths } = await dialog.showOpenDialog({
+		buttonLabel: 'Select',
 		filters: [{ name: 'Archive', extensions: ['zip'] }]
 	})
 
