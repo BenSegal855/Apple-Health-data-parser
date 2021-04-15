@@ -1,6 +1,6 @@
 {
   "name": "apple-health-data-parser",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A simple tool to turn Apple Health Data into a .csv that can be processed by your favorite data processor.",
   "main": "src/index.js",
   "scripts": {
